@@ -45,8 +45,23 @@ public class SingleLinkedList {
 
     }
 
-    void inserNodeMiddle(int data){
+    void inserNodeMiddle(int data,int position){
         Node new_node=new Node(data);
+        int count=1;
+        Node post,current=head;
+        while(current.next!=null){
+            System.out.println("Head "+current.data+"-----"+current .next.data);
+            if(count==position-1){
+                post=current.next;
+                current.next=new_node;
+//                new_node=head;
+                new_node.next=post;
+                return;
+            }
+            count++;
+            current=head.next;
+
+        }
     }
     void deleteNode(Node head){
 
@@ -65,10 +80,11 @@ public class SingleLinkedList {
 
     static ArrayList<Integer>TraversalNode(Node head){
         ArrayList<Integer> l1= new ArrayList<Integer>();
-            while(head!=null){
+        Node current=head;
+            while(current!=null){
 //                System.out.println(head.data);
-                l1.add(head.data);
-                head=head.next;
+                l1.add(current.data);
+                current=current.next;
             }
         return l1;
     }
@@ -83,6 +99,8 @@ public class SingleLinkedList {
         l1.insertNodeBefore(40);
         System.out.println("Total items in LinkedList: "+l1.countNodes(head));
         l1.insertNodeAfter(100);
+        System.out.println("New LinkedList contents: "+l1.TraversalNode(head));
+        l1.inserNodeMiddle(890,2);
         System.out.println("New LinkedList contents: "+l1.TraversalNode(head));
 
 
