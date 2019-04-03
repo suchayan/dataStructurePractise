@@ -1,14 +1,17 @@
-import java.util.LinkedList;
-class Node{
-    int data;
-    Node next;
-    Node(int data){
-        this.data=data;
-        next=null;
-    }
-}
 
 public class SingleLinkedList {
+
+
+    static class Node{
+        int data;
+        Node next;
+        Node(int data){
+            this.data=data;
+            next=null;
+        }
+    }
+
+
     void deleteNode(Node head){
 
     }
@@ -34,13 +37,12 @@ public class SingleLinkedList {
         nodeB.next=nodeC;
         nodeC.next=nodeD;
 
-        System.out.println(countNodes(head));
+//        System.out.println(countNodes(head));
 
 
-   LinkedList l1=new LinkedList();
-        l1.push(1);
+   SingleLinkedList l1=new SingleLinkedList();
 
-
+        System.out.println(l1.countNodes(head));
 
     }
 }
