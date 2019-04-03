@@ -1,4 +1,4 @@
-# dataStructurePractise
+# DataStructurePractise
 Working with git
 Topics to be covered
 LinkedList
