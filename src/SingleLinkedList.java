@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class SingleLinkedList {
 
@@ -11,11 +12,41 @@ public class SingleLinkedList {
         }
     }
 
-    void insertNode(int data){
+    void insertNodeBefore(int data){
         Node new_node=new Node(data);
-        new_node.next=head;
-        head=new_node;
+        if (head==null){
+            head=new_node;
+            return;
+        }
+        else {
+            new_node.next = head;
+            head = new_node;
+        }
 
+    }
+
+    void insertNodeAfter(int data){
+        Node tail=head;
+        Node new_node=new Node(data);
+        if(head==null) {
+            head = new_node;
+            return;
+        }
+
+//        new_node.next=null;
+        if(head!=null){
+            while(tail.next!=null){
+                tail=tail.next;
+
+            }
+
+        }
+        tail.next=new_node;
+
+    }
+
+    void inserNodeMiddle(int data){
+        Node new_node=new Node(data);
     }
     void deleteNode(Node head){
 
@@ -32,26 +63,28 @@ public class SingleLinkedList {
         return count;
     }
 
-    public static void main(String[] args) {
-        /*Node head=new Node(11);
-        Node nodeB=new Node(211);
-        Node nodeC=new Node(321);
-        Node nodeD=new Node(434);
-        //link setup
-        head.next=nodeB;
-        nodeB.next=nodeC;
-        nodeC.next=nodeD;
-*/
-//        System.out.println(countNodes(head));
+    static ArrayList<Integer>TraversalNode(Node head){
+        ArrayList<Integer> l1= new ArrayList<Integer>();
+            while(head!=null){
+//                System.out.println(head.data);
+                l1.add(head.data);
+                head=head.next;
+            }
+        return l1;
+    }
 
+    public static void main(String[] args) {
 
    SingleLinkedList l1=new SingleLinkedList();
 
-//        System.out.println(l1.countNodes(head));
+        l1.insertNodeBefore(34);
+        l1.insertNodeBefore(36);
+        l1.insertNodeBefore(39);
+        l1.insertNodeBefore(40);
+        System.out.println("Total items in LinkedList: "+l1.countNodes(head));
+        l1.insertNodeAfter(100);
+        System.out.println("New LinkedList contents: "+l1.TraversalNode(head));
 
-        l1.insertNode(34);
-        l1.insertNode(36);
-        System.out.println(l1.countNodes(head));
 
     }
 }
