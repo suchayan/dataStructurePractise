@@ -86,14 +86,12 @@ public class SingleLinkedList {
     }
 
     static void TraversalNode(Node head){
-//        ArrayList<Integer> l1= new ArrayList<Integer>();
         Node current=head;
             while(current!=null){
-//                l1.add(current.data);
                 System.out.print(current.data+" ");
                 current=current.next;
             }
-//        return l1;
+
     }
 
     public static void main(String[] args) {
