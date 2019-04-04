@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688d4b19-02c9-41ef-b489-d30d48d6dc04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Udemy/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Udemy/SingleLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLinkedList.java" afterDir="false" />
@@ -22,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SingleLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+            <state relative-caret-position="301">
+              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -48,12 +49,13 @@
         <option value="$PROJECT_DIR$/src/singleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/SingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList1.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="373" />
-    <option name="y" value="105" />
+    <option name="x" value="129" />
+    <option name="y" value="28" />
     <option name="width" value="1400" />
     <option name="height" value="936" />
   </component>
@@ -103,9 +105,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleLinkedList">
+  <component name="RunManager" selected="Application.LinkedList1">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList" />
+      <module name="Udemy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList1" />
       <module name="Udemy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,8 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleLinkedList" />
+        <item itemvalue="Application.LinkedList1" />
         <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.SingleLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +149,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="373" y="105" width="1400" height="936" extended-state="0" />
+    <frame x="129" y="28" width="1400" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.2533137" />
@@ -240,8 +250,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        <state relative-caret-position="637">
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+          <folding>
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
         </state>
       </provider>
     </entry>

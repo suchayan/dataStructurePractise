@@ -44,7 +44,9 @@ public class SingleLinkedList {
         tail.next=new_node;
 
     }
-
+    void deleteList(){
+        head=null;
+    }
     void deleteNode(int position){
         Node current =head;
         int count=0;
@@ -109,6 +111,8 @@ public class SingleLinkedList {
         l1.deleteNode(4);
 
         System.out.println("\n New LinkedList contents: ");
+        l1.TraversalNode(head);
+        l1.deleteList();
         l1.TraversalNode(head);
 
     }
