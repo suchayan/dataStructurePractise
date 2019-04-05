@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688d4b19-02c9-41ef-b489-d30d48d6dc04" name="Default Changelist" comment="v">
-      <change afterPath="$PROJECT_DIR$/src/NumerofRepeats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopDetection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,11 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NumerofRepeats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="320">
               <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LoopDetection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+              <folding>
+                <element signature="e#304#310#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,12 +104,13 @@
         <option value="$PROJECT_DIR$/src/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/middleLikedList.java" />
         <option value="$PROJECT_DIR$/src/NumerofRepeats.java" />
+        <option value="$PROJECT_DIR$/src/LoopDetection.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="113" />
-    <option name="y" value="48" />
+    <option name="x" value="187" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="936" />
   </component>
@@ -147,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumerofRepeats">
+  <component name="RunManager" selected="Application.LoopDetection">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList" />
       <module name="Udemy" />
@@ -162,15 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumerofRepeats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumerofRepeats" />
+    <configuration name="LoopDetection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopDetection" />
       <module name="Udemy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingleLinkedList" />
+    <configuration name="NumerofRepeats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumerofRepeats" />
       <module name="Udemy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoopDetection" />
         <item itemvalue="Application.NumerofRepeats" />
         <item itemvalue="Application.middleLikedList" />
         <item itemvalue="Application.LinkedList1" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.SingleLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +220,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="48" width="1400" height="936" extended-state="0" />
+    <frame x="259" y="160" width="1400" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.2533137" />
@@ -350,8 +363,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumerofRepeats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="320">
           <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoopDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding>
+            <element signature="e#304#310#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
